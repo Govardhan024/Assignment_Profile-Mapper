@@ -1,0 +1,89 @@
+profile-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers content horizontally */
+    justify-content: center;  /* Centers content vertically */
+    min-height: 100vh;  /* Ensures the container takes up full height of the viewport */
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-info h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .profile-description {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .profile-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .profile-section p {
+    margin: 5px 0;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  
+  .experience-item ul {
+    padding-left: 20px;
+  }
+  
+  .experience-item li {
+    margin-bottom: 5px;
+  }
+  
+  .profile-actions {
+    margin-top: 20px;
+  }
+  
+  .profile-actions button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .map-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #ccc;
+  }
+  
+  .map-button:hover, .back-button:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,160 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "description": "Software Engineer",
+      "photo": "https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/50dab922-5d48-4c6b-8725-7fd0755d9334/3a3f2d35-8167-4708-9ef0-bdaa980989f9.png",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "email": "johndoe@example.com",
+      "phone": "+1 415 123 4567",
+      "company": "Tech Innovations",
+      "skills": ["JavaScript", "React", "Node.js", "MongoDB"],
+      "location": "San Francisco, CA",
+      "hobbies": ["Cycling", "Photography", "Reading"],
+      "experience": [
+        {
+          "title": "Software Engineer",
+          "company": "Tech Innovations",
+          "duration": "3 years",
+          "responsibilities": [
+            "Developing scalable applications",
+            "Collaborating with cross-functional teams",
+            "Maintaining and optimizing databases"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "description": "Product Manager",
+      "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "email": "janesmith@example.com",
+      "phone": "+1 212 987 6543",
+      "company": "Innovative Solutions",
+      "skills": ["Product Management", "Market Research", "Team Leadership", "Agile"],
+      "location": "New York, NY",
+      "hobbies": ["Traveling", "Cooking", "Music"],
+      "experience": [
+        {
+          "title": "Product Manager",
+          "company": "Innovative Solutions",
+          "duration": "5 years",
+          "responsibilities": [
+            "Defining product vision and roadmap",
+            "Leading product development teams",
+            "Gathering user feedback and improving products"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "description": "UX Designer",
+      "photo": "https://randomuser.me/api/portraits/women/4.jpg",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "email": "michael.johnson@example.com",
+      "phone": "+44 20 7946 0958",
+      "company": "Design Pro",
+      "skills": ["UI Design", "Prototyping", "Wireframing", "User Research"],
+      "location": "London, UK",
+      "hobbies": ["Painting", "Hiking", "Yoga"],
+      "experience": [
+        {
+          "title": "Senior UX Designer",
+          "company": "Design Pro",
+          "duration": "4 years",
+          "responsibilities": [
+            "Creating wireframes and prototypes",
+            "Conducting user research and testing",
+            "Designing intuitive user interfaces"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "description": "Data Scientist",
+      "photo": "https://randomuser.me/api/portraits/men/5.jpg",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "email": "emilydavis@example.com",
+      "phone": "+1 323 456 7890",
+      "company": "Data Insights",
+      "skills": ["Python", "Machine Learning", "Data Analysis", "SQL"],
+      "location": "Los Angeles, CA",
+      "hobbies": ["Cycling", "Swimming", "Baking"],
+      "experience": [
+        {
+          "title": "Data Scientist",
+          "company": "Data Insights",
+          "duration": "2 years",
+          "responsibilities": [
+            "Building machine learning models",
+            "Performing data analysis",
+            "Creating data visualizations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "David Lee",
+      "description": "Full Stack Developer",
+      "photo": "https://randomuser.me/api/portraits/women/6.jpg",
+
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "email": "davidlee@example.com",
+      "phone": "+33 1 70 18 45 67",
+      "company": "Techno Labs",
+      "skills": ["Java", "Spring Boot", "React", "MySQL"],
+      "location": "Paris, France",
+      "hobbies": ["Football", "Chess", "Traveling"],
+      "experience": [
+        {
+          "title": "Full Stack Developer",
+          "company": "Techno Labs",
+          "duration": "3 years",
+          "responsibilities": [
+            "Developing full-stack web applications",
+            "Designing APIs",
+            "Collaborating with the UI/UX team"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "description": "DevOps Engineer",
+      "photo": "https://randomuser.me/api/portraits/men/7.jpg",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "email": "sophia.martinez@example.com",
+      "phone": "+1 415 987 6543",
+      "company": "Cloud Solutions",
+      "skills": ["Docker", "Kubernetes", "CI/CD", "Linux"],
+      "location": "San Francisco, CA",
+      "hobbies": ["Rock Climbing", "Reading", "Coding Challenges"],
+      "experience": [
+        {
+          "title": "DevOps Engineer",
+          "company": "Cloud Solutions",
+          "duration": "4 years",
+          "responsibilities": [
+            "Automating deployment pipelines",
+            "Managing cloud infrastructure",
+            "Optimizing system performance"
+          ]
+        }
+      ]
+    }
+  ]
+  

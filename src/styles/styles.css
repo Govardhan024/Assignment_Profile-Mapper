@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  /* Search Box */
+  .search-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #bb86fc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #6200ea;
+  }
+  
+  /* Profile Cards */
+  .profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background-color: #1f1f1f;
+    border: 2px solid #bb86fc;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: #e0e0e0;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #bb86fc;
+  }
+  
+  .profile-card h3 {
+    margin: 10px 0;
+    color: #bb86fc;
+  }
+  
+  .profile-card p {
+    font-size: 14px;
+    color: #b0b0b0;
+  }
+  
+ 
+  .profile-details-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .profile-details-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #bb86fc;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details-container h1 {
+    color: #bb86fc;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details-container p {
+    color: #b0b0b0;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .back-button {
+    background-color: #bb86fc;
+    color: #121212;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #6200ea;
+  }
+  
+  .map-button {
+    background-color: #03dac6;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .map-button:hover {
+    background-color: #018786;
+  }
+  
+  .map-container {
+    margin-top: 20px;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #121212;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #bb86fc;
+    border-radius: 10px;
+  }
+  
